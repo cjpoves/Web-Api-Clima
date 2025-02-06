@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clima</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+     <!--Header------------------------------------------------------------------------------------------->
+  
+ <!--Contenedor------------------------------------------------------------------------------------------->
+    <section class="contenedor">
+        
+        <div class="contenedor-ventana">
+            <h1>Busca el Clima de tu ciudad</h1> 
+            <div id="resultado">
+            </div>
+           
+             <!--Form------------------------------------------------------------------------------------------->
+            <form id="formulario" class="formulario" action="#" method="post">
+                 <!--Ciudad------------------------------------------------------------------------------------------->
+                <div class="formulario__contenedor">
+                    <input type="text" 
+                    name="ciudad" 
+                    id="ciudad" 
+                    placeholder="Escribe tu ciudad" 
+                    class="formulario--ciudad">
+                </div>
+                <!--Pais------------------------------------------------------------------------------------------->
+                <div class="formulario__contenedor">
+                    <select class="formulario--pais" id="pais">
+                        <option disabled selected value>Seleccione</option>
+                        <option value="AR">Argentina</option>
+                        <option value="CO">Colombia</option>
+                        <option value="EC">Ecuador</option>
+                        <option value="ES">España</option>
+                        <option value="US">Estados Unidos</option>
+                        <option value="MX">Mexico</option>
+                        <option value="IT">Italia</option>
+                        <option value="DE">Alemania</option>
+                        <option value="GB">Gran Bretaña</option>
+                        <option value="FR">Francia</option>
+                        <option value= "NL">Paises Bajos</option>
+                        <option value="NO">Noruega</option>
+                        <option value="JP">Japon</option>
+                        <option value="CN">China</option>
+
+                    </select>
+                </div>
+                <!--Submit------------------------------------------------------------------------------------------->
+                <div class="formulario__contenedor">
+                    <input type="submit" 
+                    class="formulario--submit"
+                    value="CONSULTAR CLIMA">
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <script src="js/app.js"></script>
+
+</body>
+</html>

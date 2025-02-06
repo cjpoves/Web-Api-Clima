@@ -1,0 +1,99 @@
+body {
+  background-image: linear-gradient(to right, rgb(52, 85, 158), rgb(92, 151, 193));
+  margin: 0;
+  height: 100%;
+}
+
+h1{
+    margin: 0;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+.contenedor{
+   height: 750px;
+}
+.contenedor-ventana{
+    background-color: white;
+    width: 70%;  
+    height: 70%;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5%;
+}
+.formulario__contenedor{
+    padding: 10px;
+    align-content: center;
+}
+.formulario--ciudad, .formulario--pais, .formulario--submit {
+    font-family: "Open Sans", serif;
+    font-weight: 400;  
+    padding: 20px;
+    width: 80%;
+}
+
+.formulario--ciudad{
+    width: 80%;
+}
+
+@media (max-width:800px) {
+    .formulario--ciudad{
+        width: 77%;
+    }
+}
+@media (max-width:640px) {
+    .formulario--ciudad{
+        width: 75%;
+    }
+}
+@media (max-width:450px) {
+    .formulario--ciudad{
+        width: 70%;
+    }
+}
+
+.formulario--pais{
+    width: 85%;
+}
+.formulario--submit{
+    
+    background-color: yellow;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    width: 85%;
+}
+.mensaje_error {
+    color: red;
+    text-align: center;
+    padding: 30px;
+    background-color: rgb(247, 208, 244);
+    width: 60%;
+    margin: auto;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    font-weight: bold;
+}
+
+.gradosActuales {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:chocolate;
+    font-size: 20px;
+}
+
+.gradosMaxMin {
+    display: flex;
+    gap: 40px;
+    color:chocolate;
+    font-size: 18px;
+    justify-content: center;
+}
+
+.icono {
+    display: flex;
+    justify-content: center;
+}
